@@ -1,0 +1,22 @@
+$color-text-dark: #0c0b0b;
+$color-black: #000;
+$color-white: #fff;
+$color-primary: #06744f;
+$color-light-green: #54b594;
+
+// 
+
+.color-primary {
+    color: $color-primary;
+}
+
+.color-ok {
+    color: $color-light-green;
+}
+
+.white-btn {
+    background: #fff;
+    color: #747373;
+    border-radius: 0;
+    width: 120px;
+}

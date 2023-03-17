@@ -1,0 +1,25 @@
+.cal-numbers {
+    position: relative;
+
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+        &:not(:last-child) {
+            border-right: 1px solid #a19b9b;
+        }
+    }
+
+    &::after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background: #696969;
+        position: absolute;
+        top: -10px;
+        right: 50px;
+        transform: rotate(45deg);
+    }
+}

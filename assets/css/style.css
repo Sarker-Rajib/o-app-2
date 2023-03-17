@@ -1,0 +1,183 @@
+/*=== abstracts css start === */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+.color-primary {
+  color: #06744f;
+}
+
+.color-ok {
+  color: #54b594;
+}
+
+.white-btn {
+  background: #fff;
+  color: #747373;
+  border-radius: 0;
+  width: 120px;
+}
+
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+.cal-numbers {
+  position: relative;
+}
+.cal-numbers p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.cal-numbers p:not(:last-child) {
+  border-right: 1px solid #a19b9b;
+}
+.cal-numbers::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #696969;
+  position: absolute;
+  top: -10px;
+  right: 50px;
+  transform: rotate(45deg);
+}
+
+/*===// end of base css === */
+/*=== components css start === */
+.betslip {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.betslip .betslip-header {
+  background: #dddddd;
+}
+.betslip .betslip-header .number {
+  width: 30px;
+  height: 30px;
+  background: #06744f;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.betslip .betslip-header .text {
+  padding-left: 10px;
+}
+.betslip .betslip-header .text h5 {
+  color: #727a80;
+}
+.betslip .betslip-header .text P {
+  color: #06744f;
+  font-weight: bold;
+}
+.betslip .betslip-header .right {
+  color: #79777d;
+}
+.betslip .betslip-body {
+  max-height: calc(100vh - 244px);
+  overflow-y: scroll;
+}
+.betslip .betslip-body .bet-item {
+  background: #cdcdcd;
+  border-bottom: 1px solid #bfbfbf;
+  border-left: 2px solid #b14751;
+  position: relative;
+}
+.betslip .betslip-body .bet-item .left h4 {
+  color: #4f4f5f;
+  font-size: 20px;
+}
+.betslip .betslip-body .bet-item .left p {
+  color: #747373;
+  font-size: 14px;
+}
+.betslip .betslip-body .bet-item .right .number {
+  color: #2c2c2c;
+}
+.betslip .betslip-body .bet-item .right .return {
+  color: #747373;
+  font-size: 12px;
+}
+.betslip .betslip-footer .possiblity {
+  padding: 15px;
+  background: #dbdbdb;
+  color: #5b5a5e;
+}
+.betslip .betslip-footer .bet {
+  padding: 15px;
+  background: #05714f;
+}
+.betslip .betslip-footer .bet p {
+  color: #fff;
+  cursor: pointer;
+}
+.betslip .betslip-footer .bet p span {
+  color: #54e0b3;
+}
+
+.betslip-bottom {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.betslip-bottom .betslip-header {
+  background: #dddddd;
+}
+.betslip-bottom .betslip-header .number {
+  width: 30px;
+  height: 30px;
+  background: #06744f;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.betslip-bottom .betslip-header .text {
+  padding-left: 10px;
+}
+.betslip-bottom .betslip-header .text h5 {
+  color: #727a80;
+}
+.betslip-bottom .betslip-header .text P {
+  color: #06744f;
+  font-weight: bold;
+}
+.betslip-bottom .betslip-header .right {
+  color: #79777d;
+}
+
+/*===// end of components css === *//*# sourceMappingURL=style.css.map */

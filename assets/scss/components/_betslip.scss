@@ -1,0 +1,142 @@
+.betslip {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    .betslip-header {
+        background: #dddddd;
+
+        .number {
+            width: 30px;
+            height: 30px;
+            background: #06744f;
+            border-radius: 50%;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text {
+            padding-left: 10px;
+
+            h5 {
+                color: #727a80;
+            }
+
+            P {
+                color: #06744f;
+                font-weight: bold;
+            }
+        }
+
+        .right {
+            color: #79777d;
+        }
+    }
+
+    // body
+    .betslip-body {
+        max-height: calc(100vh - 244px);
+        overflow-y: scroll;
+
+        .bet-item {
+            background: #cdcdcd;
+            border-bottom: 1px solid #bfbfbf;
+            border-left: 2px solid #b14751;
+            position: relative;
+
+            .left {
+                h4 {
+                    color: #4f4f5f;
+                    font-size: 20px;
+                }
+
+                p {
+                    color: #747373;
+                    font-size: 14px;
+                }
+            }
+
+            .right {
+                .number {
+                    color: #2c2c2c;
+                }
+
+                .return {
+                    color: #747373;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+
+    // footer
+    .betslip-footer {
+        .possiblity {
+            padding: 15px;
+            background: #dbdbdb;
+
+            color: #5b5a5e;
+        }
+
+        .bet {
+            padding: 15px;
+            background: #05714f;
+
+            p {
+                color: #fff;
+                cursor: pointer;
+
+                span {
+                    color: #54e0b3;
+                }
+            }
+        }
+    }
+}
+
+
+// bottom
+.betslip-bottom {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    .betslip-header {
+        background: #dddddd;
+
+        .number {
+            width: 30px;
+            height: 30px;
+            background: #06744f;
+            border-radius: 50%;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text {
+            padding-left: 10px;
+
+            h5 {
+                color: #727a80;
+            }
+
+            P {
+                color: #06744f;
+                font-weight: bold;
+            }
+        }
+
+        .right {
+            color: #79777d;
+        }
+    }
+}
