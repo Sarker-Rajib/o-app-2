@@ -4,20 +4,53 @@
   outline: none;
   box-sizing: border-box;
 }
-  
-::after, ::before {
+
+::after,
+::before {
   box-sizing: border-box;
 }
- 
-h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address,
+strong,
+i {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-   
-ul, li {
+
+ul,
+li {
   list-style: none;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(102, 103, 105);
+  border-radius: 10px;
 }
