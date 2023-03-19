@@ -102,15 +102,13 @@ body {
 
 /*===// end of base css === */
 /*=== components css start === */
-.betslip {
-  margin: auto;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-}
 .betslip .betslip-header {
   background: #dddddd;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
 }
 .betslip .betslip-header .number {
   width: 30px;
@@ -135,10 +133,6 @@ body {
 .betslip .betslip-header .right {
   color: #79777d;
 }
-.betslip .betslip-body {
-  max-height: calc(100vh - 244px);
-  overflow-y: scroll;
-}
 .betslip .betslip-body .bet-item {
   background: #cdcdcd;
   border-bottom: 1px solid #bfbfbf;
@@ -162,6 +156,12 @@ body {
 .betslip .betslip-body .bet-item .right .return {
   color: #747373;
   font-size: 12px;
+}
+.betslip .betslip-footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
 }
 .betslip .betslip-footer .possiblity {
   padding: 15px;
